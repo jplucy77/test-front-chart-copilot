@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+#table-container {
+    margin: 20px auto;
+    width: 95%;
+}
+.table-timetable {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+}
+.table-timetable th, .table-timetable td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 4px;
+    font-size: 12px;
+}
+.band {
+    position: absolute;
+    border-radius: 4px;
+    cursor: move;
+    z-index: 10;
+    overflow: hidden;
+}
+.band-close {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-size: 10px;
+    color: #888;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
